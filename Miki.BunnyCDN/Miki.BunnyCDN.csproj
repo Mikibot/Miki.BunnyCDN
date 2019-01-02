@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <Authors>velddev</Authors>
+    <Company>velddev</Company>
+    <Description>full-async Bunny CDN API client</Description>
+    <Copyright />
+    <PackageProjectUrl>https://github.com/Mikibot/Miki.BunnyCDN</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Mikibot/Miki.BunnyCDN</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>BunnyCDN,API</PackageTags>
+    <PackageLicenseUrl>https://github.com/Mikibot/Miki.BunnyCDN/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageReleaseNotes>Initial setup</PackageReleaseNotes>
+    <Version>0.1.0-beta1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Miki.Net.Http" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>
